@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Green Iron — Academia Premium | Força, Disciplina, Performance</title>
+<meta name="description" content="Green Iron: academia premium com estrutura completa 24h, personal trainers, acompanhamento nutricional e a melhor experiência de treino do Brasil." />
+<meta property="og:title" content="Green Iron — Academia Premium" />
+<meta property="og:description" content="Forje a melhor versão de você. Treine em uma academia preparada para transformar seu corpo e disciplina." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Progress bar -->
+<div class="progress-bar" aria-hidden="true"><div id="progressFill"></div></div>
+
+<!-- Navbar -->
+<header id="navbar" class="navbar">
+  <div class="nav-inner">
+    <a href="#inicio" class="brand">
+      <span class="brand-badge">G</span>
+      <span class="brand-text">GREEN<span class="accent">IRON</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#planos">Planos</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#planos" class="btn btn-neon"><span>Começar Agora</span><i class="fa-solid fa-arrow-right"></i></a>
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="mobile-menu" hidden>
+    <a href="#inicio">Início</a>
+    <a href="#estrutura">Estrutura</a>
+    <a href="#planos">Planos</a>
+    <a href="#beneficios">Benefícios</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contato">Contato</a>
+    <a href="#planos" class="btn btn-neon">Começar Agora</a>
+  </div>
+</header>
+
+<!-- Hero -->
+<section id="inicio" class="hero">
+  <div class="hero-bg">
+    <img src="assets/hero-athlete.jpg" alt="" aria-hidden="true" class="hero-bg-img" />
+    <div class="hero-overlay"></div>
+    <div class="grid-bg"></div>
+    <div class="glow glow-left"></div>
+    <div class="glow glow-right"></div>
+    <div class="particles" id="particlesHero"></div>
+  </div>
+  <div class="container hero-grid">
+    <div>
+      <div class="tag reveal"><span class="dot"></span> Nova Unidade Aberta</div>
+      <h1 class="reveal display">Forje a<br /><span class="accent">Melhor Versão</span><br /><span class="stroke">de Você.</span></h1>
+      <p class="reveal lead">Treine em uma academia preparada para transformar seu corpo, sua disciplina e sua qualidade de vida.</p>
+      <div class="reveal hero-actions">
+        <a href="#planos" class="btn btn-neon"><span>Começar Agora</span><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#estrutura" class="btn btn-ghost">Conhecer Estrutura</a>
+      </div>
+      <div class="reveal hero-stats">
+        <div><div class="hs-k">+2.5K</div><div class="hs-v">Alunos</div></div>
+        <div><div class="hs-k">24/7</div><div class="hs-v">Disponível</div></div>
+        <div><div class="hs-k">4.9</div><div class="hs-v">Avaliação</div></div>
+      </div>
+    </div>
+    <div class="reveal-right hero-visual">
+      <div class="hero-big-number">01</div>
+      <div class="hero-image-card">
+        <img src="assets/hero-athlete.jpg" alt="Atleta treinando na Green Iron" />
+        <div class="hero-image-fade"></div>
+        <div class="diag-lines"></div>
+        <div class="float-card">
+          <div class="fc-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+          <div>
+            <div class="fc-label">Progresso semanal</div>
+            <div class="fc-value">+18% de performance</div>
+          </div>
+        </div>
+      </div>
+      <div class="corner-square"></div>
+      <div class="corner-bar"></div>
+    </div>
+  </div>
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>Força</span><span class="accent">•</span><span>Disciplina</span><span class="accent">•</span><span>Tecnologia</span><span class="accent">•</span><span>Performance</span><span class="accent">•</span><span>Evolução</span><span class="accent">•</span><span>Green Iron</span><span class="accent">•</span>
+        <span>Força</span><span class="accent">•</span><span>Disciplina</span><span class="accent">•</span><span>Tecnologia</span><span class="accent">•</span><span>Performance</span><span class="accent">•</span><span>Evolução</span><span class="accent">•</span><span>Green Iron</span><span class="accent">•</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Diferenciais -->
+<section id="beneficios" class="section">
+  <div class="container">
+    <div class="section-head center">
+      <div class="tag reveal">Diferenciais</div>
+      <h2 class="reveal">Tudo o que você precisa para <span class="accent">performar</span>.</h2>
+      <p class="reveal">Uma experiência de treino desenhada para levar você além dos seus limites — com o cuidado que só uma academia premium entrega.</p>
+    </div>
+    <div class="grid-3 mt-16" id="benefitsGrid"></div>
+  </div>
+</section>
+
+<!-- Estrutura -->
+<section id="estrutura" class="section section-alt">
+  <div class="container">
+    <div class="section-head split">
+      <div>
+        <div class="tag reveal">Estrutura</div>
+        <h2 class="reveal">Cada espaço, pensado para o <span class="accent">alto desempenho</span>.</h2>
+      </div>
+      <p class="reveal-right">Mais de 2.000 m² divididos entre musculação, cardio, área funcional, recepção e vestiários de padrão hotel.</p>
+    </div>
+    <div class="gallery mt-16">
+      <div class="g-item g-big reveal-scale">
+        <img src="assets/gym-weights.jpg" alt="Área de musculação" loading="lazy" />
+        <div class="g-caption"><div class="g-num">01</div><div class="g-title">Musculação</div></div>
+      </div>
+      <div class="g-item reveal-scale">
+        <img src="assets/gym-cardio.jpg" alt="Área de cardio" loading="lazy" />
+        <div class="g-caption"><div class="g-num">02</div><div class="g-title">Cardio</div></div>
+      </div>
+      <div class="g-item reveal-scale">
+        <img src="assets/gym-functional.jpg" alt="Área funcional" loading="lazy" />
+        <div class="g-caption"><div class="g-num">03</div><div class="g-title">Funcional</div></div>
+      </div>
+      <div class="g-item g-wide reveal-scale">
+        <img src="assets/gym-reception.jpg" alt="Recepção" loading="lazy" />
+        <div class="g-caption"><div class="g-num">04</div><div class="g-title">Recepção Premium</div></div>
+      </div>
+      <div class="g-item reveal-scale">
+        <img src="assets/gym-locker.jpg" alt="Vestiário" loading="lazy" />
+        <div class="g-caption"><div class="g-num">05</div><div class="g-title">Vestiários</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Planos -->
+<section id="planos" class="section">
+  <div class="container">
+    <div class="section-head center">
+      <div class="tag reveal">Planos</div>
+      <h2 class="reveal">Escolha o plano da <span class="accent">sua evolução</span>.</h2>
+      <p class="reveal">Sem taxa de matrícula. Cancele quando quiser. Suporte total desde o primeiro dia.</p>
+    </div>
+    <div class="plans mt-16" id="plansGrid"></div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="section stats-section">
+  <div class="stats-bg"><img src="assets/gym-woman.jpg" alt="" aria-hidden="true" /><div class="stats-overlay"></div></div>
+  <div class="container">
+    <div class="stats-grid" id="statsGrid"></div>
+  </div>
+</section>
+
+<!-- Depoimentos -->
+<section id="depoimentos" class="section testimonials">
+  <div class="container">
+    <div class="section-head split">
+      <div>
+        <div class="tag reveal">Depoimentos</div>
+        <h2 class="reveal">O que dizem <span class="accent">nossos alunos</span>.</h2>
+      </div>
+      <div class="reveal-right rating">
+        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+        <span>4.9 / 5 · 800+ avaliações</span>
+      </div>
+    </div>
+  </div>
+  <div class="testi-marquee-wrap">
+    <div class="fade-left"></div><div class="fade-right"></div>
+    <div class="testi-marquee" id="testiTrack"></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="contato" class="section cta-section">
+  <div class="container">
+    <div class="cta-card reveal-scale">
+      <div class="glow glow-center"></div>
+      <div class="grid-bg"></div>
+      <div class="particles" id="particlesCta"></div>
+      <div class="cta-inner">
+        <div class="tag">Vaga limitada</div>
+        <h2 class="display">Sua Evolução <br class="mobile-only" /><span class="accent">Começa Hoje</span>.</h2>
+        <p class="lead">Agende um treino experimental gratuito e conheça a academia que está redefinindo o padrão premium no Brasil.</p>
+        <div class="cta-actions">
+          <a href="#" class="btn btn-neon btn-lg"><span>Agende um Treino Experimental</span><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#planos" class="link-underline">Ou ver planos disponíveis</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <span class="brand-badge">G</span>
+          <span class="brand-text">GREEN<span class="accent">IRON</span></span>
+        </div>
+        <p class="footer-about">Academia premium para quem busca alto desempenho, disciplina e uma experiência de treino sem igual.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div>
+        <div class="foot-title">Navegação</div>
+        <ul class="foot-list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#estrutura">Estrutura</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="foot-title">Contato</div>
+        <ul class="foot-list">
+          <li><i class="fa-solid fa-phone accent"></i> +55 (11) 4000-0000</li>
+          <li class="accent"><i class="fa-brands fa-whatsapp"></i> (11) 99999-0000</li>
+          <li><i class="fa-solid fa-envelope accent"></i> contato@greeniron.com.br</li>
+        </ul>
+      </div>
+      <div>
+        <div class="foot-title">Endereço</div>
+        <ul class="foot-list">
+          <li><i class="fa-solid fa-location-dot accent"></i> Av. Paulista, 2000<br />Bela Vista — São Paulo/SP</li>
+          <li><i class="fa-regular fa-clock accent"></i> Aberto 24h · Todos os dias</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© <span id="year"></span> Green Iron. Todos os direitos reservados.</div>
+      <div class="footer-links">
+        <a href="#">Termos</a><a href="#">Privacidade</a><a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
